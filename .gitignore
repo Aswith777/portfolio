@@ -1,0 +1,33 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary Files
+*.log
+*.tmp
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+application-secrets.yml
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Node / Frontend Build Tools (if adopted later)
+node_modules/
+dist/
+.vercel/
+
+# Java & Spring Boot Artifacts
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/bin/
+backend/.project
+backend/.classpath
+backend/.settings/
